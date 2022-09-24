@@ -1,0 +1,172 @@
+@import url("https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Poppins:ital,wght@0,300;0,400;0,600;0,700;1,500&display=swap");
+/* Cursor */
+body::-webkit-scrollbar {
+  width: 0.7em;
+}
+body::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+body::-webkit-scrollbar-thumb {
+  background: #ed5e93;
+}
+
+/* Gradient */
+.gradient {
+  background: linear-gradient(to right, #12c2e9, #c471ed, #f64f59);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-weight: 700 !important;
+}
+body {
+  font-family: Poppins, sans-serif !important;
+}
+h1 {
+  font-size: 70px !important;
+  font-weight: 700 !important;
+  line-height: 70px !important;
+  color: #fff;
+}
+h2 {
+  font-size: 40px !important;
+  font-weight: 540 !important;
+}
+h3 {
+  font-style: normal !important;
+  font-weight: 600 !important;
+  font-size: 20px !important;
+}
+
+p {
+  color: #e5e5e5 !important;
+}
+.bg-black {
+  background: #000;
+}
+
+/* Navbar  */
+
+.nav-link {
+  color: #e5e5e5 !important;
+  font-weight: 300;
+  font-size: 18px;
+}
+#navbar .fab {
+  font-size: 1.3rem;
+  color: #e5e5e5 !important;
+}
+
+.nav-link:hover {
+  color: #f64f59 !important;
+}
+/* Home */
+#home {
+  background-color: black;
+}
+#home img {
+  width: 80%;
+  margin-left: 180px;
+}
+
+/* Buttons */
+
+.btn-primary {
+  height: 46px;
+  width: 150px;
+  background: #0ea5e9 !important;
+  border-radius: 20px !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn-secondary {
+  height: 40px;
+  width: 130px;
+  background: #03203c !important;
+  border: none !important;
+  border-radius: 20px !important;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0px;
+}
+.btncode:hover {
+  color: #000 !important;
+}
+
+/* Skills */
+.descr {
+  padding-bottom: 50px;
+  color: #000;
+}
+
+/* Projects */
+.card {
+  background: linear-gradient(
+    179.83deg,
+    #8685ef -43.97%,
+    rgba(196, 113, 237, 0.095) 102.91%
+  ) !important;
+
+  box-shadow: 0 8px 10px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 16px;
+  border: 1px;
+  width: 350px;
+  height: 565px;
+  border: 2px solid;
+}
+.card-text {
+  color: #272e36;
+  font-weight: 20;
+  font-size: 15px;
+}
+.card-title {
+  font-weight: 700;
+  font-size: 30px;
+  color: #c471ed;
+}
+.card-img-top {
+  border-radius: 16px 16px 0px 0px;
+  height: 206px !important;
+  background-size: cover;
+}
+#projects .bankist {
+  width: auto;
+}
+
+/* footer */
+footer .fab {
+  color: #000;
+  font-size: 1.5rem;
+  border: 1px solid black;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  padding: 7px;
+  margin: 0px 10px;
+}
+footer p {
+  font-weight: 500;
+  font-size: 13px;
+  color: #000 !important;
+}
+
+/* Media Query */
+
+@media (max-width: 425px) {
+  h1 {
+    font-size: 50px !important;
+    font-weight: 700 !important;
+    line-height: 50px !important;
+  }
+  .card {
+    width: 300px;
+    height: 530px;
+  }
+  #home img {
+    margin-top: 50px;
+    margin-left: 50px;
+  }
+}
