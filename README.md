@@ -30,7 +30,7 @@
 ![trophy](https://github-profile-trophy.vercel.app/?username=shubhlabh123&theme=onedark)
 
 ## Screenshot
-![Screenshot](./untitled.png)
+![Screenshot](./Untitled.png)
 
 <!---
 shubhlabh123/shubhlabh123 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
