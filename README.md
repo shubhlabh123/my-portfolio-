@@ -34,7 +34,7 @@
 
 
 ## Live Link :
-[Click Here](https://my-portfolio-itk2g0yyc-shubhamsomvanshi732-gmailcom.vercel.app/)
+[Click Here](https://my-portfolio-itkg0yyc-shubhamsomvanshi732-gmailcom.vercel.app/)
 <!---
 shubhlabh123/shubhlabh123 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
